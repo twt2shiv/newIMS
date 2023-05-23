@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #4d4d4d !important;
+}
+.MuiDataGrid-cellContent,
+.MuiDataGrid-columnHeaderTitle {
+  font-size: 12px !important;
+}
+.ant-form-item-label label,
+.ant-form-item-explain-error {
+  font-size: 12px !important;
+}
+.ant-form-item-label {
+  padding: 0 !important;
+}
+.ant-form-item {
+  margin-bottom: 10px !important;
+}
+.view-icon {
+  transform: scale(1);
+}
+.action-icon {
+  transform: scale(1.4);
+}
+.ant-divider-horizontal {
+  margin: 0px 8px !important;
+}
+.preview-block .ant-upload-wrapper {
+  display: block !important;
+}
+*::-webkit-scrollbar {
+  width: 5px !important;
+  cursor: pointer;
+  height: 5px;
+}
+*::-webkit-scrollbar-track:active {
+  width: 10px !important;
+  cursor: pointer;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+  cursor: pointer;
+}
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #04b0a8 !important;
+  cursor: pointer;
+  border-radius: 500px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #036e69 !important;
+  cursor: pointer;
+}
+@media screen and (max-width: 1600px) {
+  .ant-divider-horizontal {
+    margin: 0px 8px !important;
+  }
+  .MuiDataGrid-cellContent,
+  .MuiDataGrid-columnHeaderTitle {
+    font-size: 10px !important;
+  }
+  .ant-form-item-label label,
+  .ant-form-item-explain-error {
+    font-size: 10px !important;
+  }
+  .view-icon {
+    /* font-size: 50px; */
+    transform: scale(1);
+  }
+  .action-icon {
+    transform: scale(1.2);
+  }
+}
